@@ -192,13 +192,27 @@ hr {
 
 .column {
   float: left;
-  width: 25%;
+  width: 40%;
  
 }
 .content {
   background-color: white;
   padding: 10px;
+  height: 280px;
 }
+
+
+.titleMountains,.titleLights,.titleNature,.titleWind,.titleRain,.titleEarth
+{
+  background-color: #850c3b;
+  color: #fff;
+  position: relative;
+  bottom: 70px;
+  width: 260px;
+  height: 50px;
+}
+
+
 
 /***
  *     ██████╗██████╗███╗   ██████████╗
