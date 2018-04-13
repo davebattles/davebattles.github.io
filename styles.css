@@ -3,6 +3,7 @@
 body {
  padding: 0px;
  margin: 0px;
+ font-family: 'Poppins', sans-serif;
 
 }
 a {
@@ -44,7 +45,7 @@ header {
   background: #850c3b;
   width: 300px;
   height: 100px;
-  margin-left: 15%;
+  margin-right: 400px;
   text-shadow: 2px 1px #000;
 }
 
@@ -86,9 +87,9 @@ h3{
  }
  .positioningNav {
    position: relative;
-   left: 400px;
+   left: 200px;
    top: -40px;
-   width: 400px;
+   width: 500px;
    height: 10px;
    }
  
@@ -101,36 +102,41 @@ h3{
  *    ╚═╝╚═════╝╚═════╝╚═╝  ╚═══╚══════╝
 */
 i{
-  color: #850c3b;
+  color: #f7f7f7;
   text-shadow: 1px 1px #000;
 }
 #skill1 {
-  position: absolute;
-  top: 0px;
+  position: relative;
+  top: -15px;
   left: 1px;
-
-  height: 500px;
+  float: left;
+  height: 50px;
+  padding: 5px;
+  
 }
 #skill2 {
-  position: absolute;
-  top: 0px;
-  left: 50px;
-
-  height: 500px;
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
 }
 #skill3 {
-  position: absolute;
-  top: 50px;
+  position: relative;
+  top: -15px;
   left: 1px;
-
-  height: 500px;
+  float: left;
+  height: 50px;
+  padding: 5px;
 }
 #skill4 {
-  position: absolute;
-  top: 50px;
-  left: 50px;
- 
-  height: 500px;
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
 }
 
 /***
@@ -165,6 +171,7 @@ hr {
   margin: 0px 10px;
 }
 
+
 /***
  *    ██████╗ ██████╗██████╗████████╗
  *    ██╔══████╔═══████╔══██╚══██╔══╝
@@ -184,6 +191,7 @@ hr {
   background-color:#fcfcfc;
   color: #5c5c5c;
   font-weight: bold;
+  min-width: 300px;
   max-width: 700px;
   font-family: 'Poppins', sans-serif;
   position: relative;
@@ -202,17 +210,25 @@ hr {
 }
 
 
-.titleMountains,.titleLights,.titleNature,.titleWind,.titleRain,.titleEarth
+.titleMountains, .titleLights, .titleNature,.titleWind,.titleRain,.titleEarth
 {
   background-color: #850c3b;
   color: #fff;
   position: relative;
-  bottom: 70px;
-  width: 260px;
-  height: 50px;
+  bottom: 50px;
+  height: 10%;
+  width: 100%;
+  min-width: 100px;
+  max-width: 260px;
 }
 
-
+.titleStyle {
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  font-size: 1.5vw;
+  
+}
 
 /***
  *     ██████╗██████╗███╗   ██████████╗
