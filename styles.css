@@ -85,13 +85,23 @@ h3{
    height: 50px;
    float: left;
  }
- .positioningNav {
-   position: relative;
-   left: 200px;
-   top: -40px;
-   width: 500px;
-   height: 10px;
-   }
+ .positioningNav{
+  position: relative;
+  left: 200px;
+  top: -45px;
+  width: 500px;
+
+  height: 150px;
+  padding: 5px;
+  }
+
+@media screen and (max-width: 700px) {
+  .positioningNav {
+      top: 10px;
+      left: -100px;
+  }
+}
+
  
 /***
  *    ██╗██████╗██████╗███╗   █████████╗
