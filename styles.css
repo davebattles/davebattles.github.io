@@ -34,19 +34,8 @@ div.col-sm-2.nameTag {
   min-width: 180px;
 }
 
-div.col-sm-1.navAbout,
-div.col-sm-1.navPortfolio,
-div.col-sm-1.navContact,
-{
 
-}
 
-div.col-sm-1.navAbout.borderRight,
-div.col-sm-1.navPortfolio.borderRight 
-{
-  /* border-right: 1px #000 solid; */
-    
-}
 
 .navButton {
   text-align: left;
