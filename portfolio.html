@@ -3,113 +3,77 @@
 
 <head>
   <meta charset="UTF-8">
-
-  <title>~Portfolio</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-    crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gallery</title>
 </head>
 
 <body>
-  <header>
-    <center>
-      <div class="nameLogo">
-        <h1>David Flores</h1>
-        <section id="skill1">
-          <i class="fab fa-js fa-1x"></i>
-        </section>
-        <section id="skill2">
-          <i class="fab fa-react fa-1x"></i>
-        </section>
-        <section id="skill3">
-          <i class="fab fa-html5 fa-1x"></i>
-        </section>
-        <section id="skill4">
-          <i class="fab fa-css3-alt fa-1x"></i>
-        </section>
-        <div class="positioningNav">
+
+    <div class="row">
+        <!-- Blank Space -->
+        <div class="col-sm-1"></div>
+        <!-- Name Tag -->
+        <div class="col-sm-2 nameTag">David Flores</div>
+        <!-- Blank -->
+        <div class="col-sm-4"></div>
+        <!-- ABout -->
+    
+        <div class="col-sm-1 navAbout borderRight">
           <a href="index.html">
-            <div id="about">
-              <h3>About</h3>
-            </div>
+            <div class="navButton">about</div>
           </a>
-
+        </div>
+    
+        <!-- Portfolio -->
+        <div class="col-sm-1  navPortfolio borderRight">
           <a href="portfolio.html">
-            <div id="portfolio">
-              <h3>Portfolio</h3>
+            <div class="navButton">
+              porfolio
             </div>
           </a>
+        </div>
+        <!-- Contact -->
+        <div class="col-sm-1 navContact">
           <a href="contact.html">
-            <div id="contact">
-              <h3>Contact</h3>
+            <div class="navButton">
+              contact
             </div>
           </a>
         </div>
-    </center>
-  </header>
-  <p>
-
-
-    <div class="portfolio">
-      <h4>Portfolio</h4>
-      <hr>
-      <br>
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Mountains" style="width:100%">
-          <div class="titleMountains">
-            <div class="titleStyle">Mountains</div>
-          </div>
-
-        </div>
+        <!-- Blank -->
+        <div class="col-sm-2"></div>
       </div>
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Lights" style="width:100%">
-          <div class="titleLights">
-            <div class="titleStyle">Lights</div>
-          </div>
-
-        </div>
+      <div class="container"></div>
+    <div class="row">
+      <div class="col-sm-1">
       </div>
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Nature" style="width:100%">
-          <div class="titleNature">
-            <div class="titleStyle">Nature</div>
-          </div>
-        </div>
+      <div class="col-sm-10 gallery"><h6>Portfolio</h6>
+        <hr>
+        <div class="row gallery">
+        <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
+        <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
       </div>
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Wind" style="width:100%">
-          <div class="titleWind">
-            <div class="titleStyle">Wind</div>
-          </div>
+      <div class="row gallery">
+          <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
+          <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
         </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Rain" style="width:100%">
-          <div class="titleRain">
-            <div class="titleStyle">Rain</div>
+        <div class="row gallery">
+            <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
+            <div class="col-md-5 gallery"><img src="images/300x300-300x300.png" alt=""></div>
           </div>
-        </div>
       </div>
-
-      <div class="column">
-        <div class="content">
-          <img src="images/300x300-300x300.png" alt="Earth" style="width:100%">
-          <div class="titleEarth">
-            <div class="titleStyle">Earth</div>
-          </div>
-        </div>
-      </div>
+      <div class="col-sm-1"></div>
     </div>
+    <div class="row">
+      <div class=""></div>
     </div>
+    <!-- Container END -->
+  </div>
+
 </body>
 
 </html>

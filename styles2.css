@@ -1,0 +1,294 @@
+
+
+body {
+ padding: 0px;
+ margin: 0px;
+ font-family: 'Poppins', sans-serif;
+
+}
+a {
+  color: #850c3b;
+}
+h4 {
+  margin: 25px;
+  padding: 25px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px #000;
+
+}
+
+/***
+ *    ███╗   ██╗█████╗██╗   ██╗
+ *    ████╗  ████╔══████║   ██║
+ *    ██╔██╗ ███████████║   ██║
+ *    ██║╚██╗████╔══██╚██╗ ██╔╝
+ *    ██║ ╚██████║  ██║╚████╔╝ 
+ *    ╚═╝  ╚═══╚═╝  ╚═╝ ╚═══╝  
+ *                             
+ */
+
+ header {
+
+}
+
+.navbar.navbar-light.bg-light {
+  background-color: #ccc!important;
+  
+}
+
+.nameLogo {
+  position: top;
+  background: #850c3b;
+  width: 300px;
+  height: 100px;
+  margin-right: 400px;
+  text-shadow: 2px 1px #000;
+}
+
+h1 {
+  padding: 25px; 
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+h3{
+  padding: 25px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px #000;
+ }
+ 
+#about {
+ 
+  width: 120px;
+  height: 50px;
+  float: left;
+  border-right: 1px solid #000;
+  
+ 
+ }
+ #portfolio {
+ 
+   width: 120px;
+   height: 50px;
+   float: left;
+   border-right: 1px solid #000;
+ }
+ #contact {
+   width: 120px;
+   height: 50px;
+   float: left;
+ }
+ .positioningNav{
+  position: relative;
+  left: 200px;
+  top: -45px;
+  width: 500px;
+
+  height: 150px;
+  padding: 5px;
+  }
+
+/* added reflex and may add this to a few other properties later */
+@media screen and (max-width: 700px) {
+  .positioningNav {
+      top: 10px;
+      left: -100px;
+  }
+}
+
+ 
+/***
+ *    ██╗██████╗██████╗███╗   █████████╗
+ *    ████╔════██╔═══██████╗  ████╔════╝
+ *    ████║    ██║   ████╔██╗ █████████╗
+ *    ████║    ██║   ████║╚██╗██╚════██║
+ *    ██╚██████╚██████╔██║ ╚███████████║
+ *    ╚═╝╚═════╝╚═════╝╚═╝  ╚═══╚══════╝
+*/
+i{
+  color: #f7f7f7;
+  text-shadow: 1px 1px #000;
+}
+#skill1 {
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
+  
+}
+#skill2 {
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
+}
+#skill3 {
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
+}
+#skill4 {
+  position: relative;
+  top: -15px;
+  left: 1px;
+  float: left;
+  height: 50px;
+  padding: 5px;
+}
+
+/***
+ *     █████╗██████╗ ██████╗██╗   ██████████╗
+ *    ██╔══████╔══████╔═══████║   ██╚══██╔══╝
+ *    █████████████╔██║   ████║   ██║  ██║   
+ *    ██╔══████╔══████║   ████║   ██║  ██║   
+ *    ██║  ████████╔╚██████╔╚██████╔╝  ██║   
+ *    ╚═╝  ╚═╚═════╝ ╚═════╝ ╚═════╝   ╚═╝   
+ *                                           
+ */
+ .aboutMe {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px 10px 50px 50px;
+  background-color:#fcfcfc;
+  color: #5c5c5c;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #021a40;
+  max-width: 700px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  
+}
+
+#nested {
+  margin: 20px;
+}
+hr {
+  margin: 0px 10px;
+}
+
+
+/***
+ *    ██████╗ ██████╗██████╗████████╗
+ *    ██╔══████╔═══████╔══██╚══██╔══╝
+ *    ██████╔██║   ████████╔╝  ██║   
+ *    ██╔═══╝██║   ████╔══██╗  ██║   
+ *    ██║    ╚██████╔██║  ██║  ██║   
+ *    ╚═╝     ╚═════╝╚═╝  ╚═╝  ╚═╝   
+ *                                   
+ */
+
+ .portfolio {
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+ 
+  background-color:#fcfcfc;
+  color: #5c5c5c;
+  font-weight: bold;
+  /* HINT Set Dimensions of the image sizes to 1:1 fixed */
+  min-width: 300px;
+  max-width: 700px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+
+}
+
+img{
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.column {
+  float: left;
+  width: 40%;
+ 
+}
+@media screen and (max-width: 700px) {
+  .column {
+    
+    width: 100%;
+  }
+}
+.content {
+  background-color: white;
+  padding: 10px;
+  height: 280px;
+}
+
+
+.titleMountains, .titleLights, .titleNature,.titleWind,.titleRain,.titleEarth
+{
+  background-color: #850c3b;
+  color: #fff;
+  position: relative;
+  bottom: 50px;
+  height: 10%;
+  width: 100%;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.titleStyle {
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  font-size: 1.5vw;
+  
+}
+
+/***
+ *     ██████╗██████╗███╗   ██████████╗
+ *    ██╔════██╔═══██████╗  ██╚══██╔══╝
+ *    ██║    ██║   ████╔██╗ ██║  ██║   
+ *    ██║    ██║   ████║╚██╗██║  ██║   
+ *    ╚██████╚██████╔██║ ╚████║  ██║   
+ *     ╚═════╝╚═════╝╚═╝  ╚═══╝  ╚═╝                                      
+ */
+
+ .contact {
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+ 
+  background-color:#fcfcfc;
+  color: #5c5c5c;
+  font-weight: bold;
+  max-width: 700px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+
+}
+
+.styledContact{
+  color: #850c3b
+}
+
+.submitButton {
+  background: #850c3b;
+  width: 100px;
+  height: 40px;
+ 
+  
+}
+h5 {
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  padding: 10px 10px 10px 20px;
+    color: #fff;
+}
